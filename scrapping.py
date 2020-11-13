@@ -51,7 +51,9 @@ for category in categories:
                     pass
                 tags_html = bs.find_all(class_="hashtag-recommend-group__item")
                 tags = []
-                # For now just printing 
+                # For now just printing
+                # Just printing information for now
+                # TODO : change to save it in different files (?) maybe
                 print("-"*20)
                 print(urlname,author,title)
                 print(content)
